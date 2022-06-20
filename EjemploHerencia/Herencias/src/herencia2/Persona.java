@@ -48,7 +48,9 @@ public class Persona {
     
     @Override
     public String toString(){
-        return String.format("Nombre: %s - Apellido %s - Edad %d", 
+        return String.format("Nombre: %s\n"
+                + "Apellido %s\n"
+                + "Edad %d\n", 
                 getNombre(), getApellido(), getEdad());
     }
     

@@ -30,6 +30,6 @@ public class Policia extends Persona {
     @Override
     public String toString() {
 
-        return String.format("%s - %s", super.toString(), getRango());
+        return String.format("%sRango: %s", super.toString(), getRango());
     }
 }

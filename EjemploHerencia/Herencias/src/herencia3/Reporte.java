@@ -44,5 +44,8 @@ public class Reporte {
     public String obtenerCiclo() {
         return ciclo;
     }
-
+    @Override
+    public String toString(){
+        return nombre;
+    }
 }

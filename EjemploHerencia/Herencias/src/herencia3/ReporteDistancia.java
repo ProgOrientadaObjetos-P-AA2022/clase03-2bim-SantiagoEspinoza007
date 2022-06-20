@@ -43,11 +43,15 @@ public class ReporteDistancia extends Reporte{
         
         String cadena = String.format("%s\nCarrera: %s \n"
                 + "Ciclo: %s\n\n"
-                + "El total de matriculas es: %.2f\n", 
+                + "Lista de estudiantes: \n", 
                 nombre,
                 carrera,
-                ciclo,
-                obtenerTotalMatriculasDistancia());
+                ciclo);
+        for (int i = 0; i < lista.size(); i++) {
+            cadena = String.format("%s\n%s\n", cadena, lista.get(i));
+        }
+        cadena = String.format("%s\nEl total de matriculas es: %.2f\n", 
+                cadena, obtenerTotalMatriculasDistancia());
         return cadena;
     }
     
