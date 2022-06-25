@@ -142,7 +142,7 @@ public class EjecutaEstudiante {
 
             entrada.nextLine();
             // Se pregunta si se desea ingresar más estudiante
-            System.out.println("Desea ingresar más estudiante. Digite la "
+            System.out.println("¿Desea ingresar más estudiante?. \nDigite la "
                     + "letra S para continuar o digite la letra N para salir "
                     + "del proceso");
 
